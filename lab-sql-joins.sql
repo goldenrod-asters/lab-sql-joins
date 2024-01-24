@@ -14,7 +14,7 @@ GROUP BY c.name;
 
 -- 2. Retrieve the store ID, city, and country for each store.
 
-SELECT store_id, city country
+SELECT store_id, city, country
 FROM store
 LEFT JOIN address
 USING(address_id)
